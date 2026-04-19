@@ -196,29 +196,6 @@
       object-fit: cover;
       object-position: top center;
       display: block;
-      /* Since we can't use the real photo, we show a placeholder */
-    }
-
-    /* Photo placeholder (until replaced with real image) */
-    .photo-placeholder {
-      width: 100%;
-      height: 100%;
-      min-height: 500px;
-      background: linear-gradient(170deg, #c8b8d0 0%, #e8c8d8 100%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-end;
-      padding-bottom: 20px;
-      gap: 8px;
-      font-size: 13px;
-      color: var(--navy);
-      font-weight: 600;
-      text-align: center;
-    }
-    .photo-icon {
-      font-size: 64px;
-      opacity: .45;
     }
 
     /* ── BANNER ── */
@@ -421,19 +398,9 @@
 
     </div>
 
-    <!-- Candidate photo -->
+    <!-- Right side with photo -->
     <div class="hero-right">
-      <!--
-        TO USE YOUR OWN PHOTO:
-        Replace the placeholder below with:
-        <img src="photo.jpg" alt="Atuhuriire Stuart" class="candidate-photo"/>
-        and place photo.jpg in the same folder as index.html.
-      -->
-      <div class="photo-placeholder">
-        <div class="photo-icon">🧑‍💼</div>
-        <span>Replace with candidate photo</span>
-        <code style="font-size:10px;opacity:.6;">img src="photo.jpg"</code>
-      </div>
+      <img src="photo.jpg" alt="Atuhuriire Stuart" class="candidate-photo">
     </div>
 
     <!-- Decorative right bars -->
@@ -460,10 +427,6 @@
       Faculty of Science and Computing. Click below to access the
       official online voting platform.
     </p>
-    <!--
-      IMPORTANT: Replace the href="#" below with your actual voting platform URL
-      e.g. href="https://voting.ndejje.ac.ug"
-    -->
     <a href="https://myvote.ndu.ac.ug" class="vote-btn" target="_blank" rel="noopener">
       <span class="btn-icon">🗳️</span>
       CAST YOUR VOTE NOW
