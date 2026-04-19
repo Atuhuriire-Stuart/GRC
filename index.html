@@ -75,43 +75,17 @@
       gap: 24px;
     }
 
-    /* University badge */
+    /* University badge - now using real logo */
     .uni-badge {
       display: flex;
       align-items: center;
       gap: 12px;
     }
-    .uni-shield {
+    .uni-logo {
       width: 64px;
       height: 72px;
-      background: linear-gradient(135deg, #1a1464 40%, #2a2494);
-      border-radius: 4px 4px 32px 32px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 16px rgba(26,20,100,.3);
+      object-fit: contain;
       flex-shrink: 0;
-    }
-    .shield-inner {
-      width: 44px;
-      height: 52px;
-      border: 2px solid rgba(255,255,255,.5);
-      border-radius: 2px 2px 22px 22px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 2px;
-    }
-    .shield-crown {
-      font-size: 14px;
-      line-height: 1;
-    }
-    .shield-ndu {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 13px;
-      color: var(--white);
-      letter-spacing: 1px;
     }
     .uni-text { line-height: 1.25; }
     .uni-name {
@@ -370,14 +344,9 @@
   <section class="hero">
     <div class="hero-left">
 
-      <!-- University Badge -->
+      <!-- University Badge with real logo -->
       <div class="uni-badge">
-        <div class="uni-shield">
-          <div class="shield-inner">
-            <span class="shield-crown">👑</span>
-            <span class="shield-ndu">NDU</span>
-          </div>
-        </div>
+        <img src="ndu-logo.png" alt="Ndejje University Logo" class="uni-logo">
         <div class="uni-text">
           <div class="uni-name">Ndejje University</div>
           <div class="uni-year">2026 – 2027</div>
@@ -414,7 +383,7 @@
   <!-- ══ BANNER ══ -->
   <div class="banner">
     <div class="banner-top">For</div>
-    <div class="banner-main">Guild Representative Councilor</div>
+    <div class="banner-main">Guild Representative Council</div>
     <div class="banner-sub">Faculty of Science and Computing</div>
     <div class="banner-tagline">"For Gumite Leadership"</div>
   </div>
@@ -423,7 +392,7 @@
   <section class="cta-section">
     <h2 class="cta-heading">Ready to Make Your Vote Count?</h2>
     <p class="cta-sub">
-      Support Atuhuriire Stuart for Guild Representative Councilor
+      Support Atuhuriire Stuart for Guild Representative Councilor—
       Faculty of Science and Computing. Click below to access the
       official online voting platform.
     </p>
@@ -440,7 +409,7 @@
       <div class="pillar">
         <div class="pillar-icon">📢</div>
         <h3>Student Voice</h3>
-        <p>Amplifying the concerns of Faculty Of Science And Computing students in every Guild Cabinet session.</p>
+        <p>Amplifying the concerns of BSE II and FOSC students in every council session.</p>
       </div>
       <div class="pillar">
         <div class="pillar-icon">💡</div>
@@ -462,7 +431,7 @@
 
   <!-- ══ FOOTER ══ -->
   <footer>
-    <strong>Vote Atuhuriire Stuart</strong> &nbsp;·&nbsp; Guild Representative Councilor &nbsp;·&nbsp;
+    <strong>Vote Atuhuriire Stuart</strong> &nbsp;·&nbsp; Guild Representative Council &nbsp;·&nbsp;
     Faculty of Science and Computing &nbsp;·&nbsp; Ndejje University 2026–2027
   </footer>
 
